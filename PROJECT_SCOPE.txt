@@ -1,0 +1,12 @@
+CloudPilot – CCT mini-project
+
+Purpose:
+Accept a Python application ZIP and automate basic preparation for deployment.
+
+Workflow:
+1. Upload the ZIP file.
+2. Extract the application and check Python files.
+3. Run included tests.
+4. Build a Docker image when Docker and a Dockerfile are available.
+
+This version performs the workflow locally. It does not perform a live AWS deployment.
